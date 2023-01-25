@@ -6,6 +6,7 @@ import Categories from "../components/Home/Categories";
 import FeaturedProducts from "../components/Home/Featured Products";
 import HeroSlider from "../components/Home/HeroSlider";
 import NewArrival from "../components/Home/NewArrival";
+import OurCollections from "../components/Home/Our Collections";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
           <Categories />
           <NewArrival />
           <FeaturedProducts/>
+          <OurCollections/>
         </Container>
       </main>
       <Footer />
