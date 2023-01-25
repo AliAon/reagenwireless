@@ -1,0 +1,42 @@
+/*-------------------------
+   Footer Styles
+-------------------------*/
+.top-footer{
+   padding-bottom: 60px;
+} 
+
+.footer{
+   background-color: rgba(50, 103, 227, 0.05);
+   padding-top: 40px;
+   padding-bottom: 30px;
+   &__logo-text{
+      font-size:  var(--h5);
+      line-height: 30px;
+   }
+   &__about-text{
+      font-size: var(--font-body-3)
+   }
+   &__menu-title{
+      font-style: normal;
+      font-weight: 700;
+      font-size:  var( --font-body-2);
+      line-height: var(--line-height-b1);
+      color: #383838;
+   }
+   &__menu-lnks{ 
+      list-style: none;
+      margin-left: -20px;
+        li{
+         color: #383838;
+         font-size:  var(--font-body-3);
+         line-height:var(--line-height-b1);
+      }
+   }
+   &__copyright{
+      font-size:  var(--font-body-3);
+   }
+   &__payment__icons{
+      margin-right: 5px;
+
+   }
+}

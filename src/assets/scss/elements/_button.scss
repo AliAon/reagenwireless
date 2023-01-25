@@ -1,0 +1,15 @@
+.button{
+    &__signup{
+        background-color: var(--color-primary);
+        font-size:var(--font-buton-3) 
+
+    }
+    &__sigin{
+        background-color: white;
+        border-color: var(--color-primary);
+        color: var(--color-primary);
+        font-size: var(--font-buton-3) 
+
+    }
+ 
+}
