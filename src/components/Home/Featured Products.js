@@ -26,8 +26,8 @@ const FeaturedProducts = () => {
               src="./images/products/image 4.png"
               className="featured-products-image"
             />
-            
-            <Row className="timer">
+
+            <Row className="timer pt--20 pl--30 pr--30 pb--20">
               <Col>
                 <div className="timer__hours">
                   <h4 className="timer__hours__num">2</h4>
@@ -49,7 +49,69 @@ const FeaturedProducts = () => {
             </Row>
           </div>
         </Col>
-        <Col lg={6}></Col>
+        <Col lg={6}>
+          <div className="featured-product__top">
+            <Row>
+              <Col lg={6}>
+                <img
+                  src="./images/products/image 5.png"
+                  className="featured-products-image"
+                />
+              </Col>
+              <Col lg={6}>
+                <div className="featured-product-detail">
+                  <div className="featured-product__detail pb--20">
+                    <h5 className="featured-product__top__label">Limited Offer</h5>
+                    <h5 className="featured-product__top__title">
+                      Smart Watch New Series
+                    </h5>
+                    <div className="featured-product__prices">
+                      <span className="featured-product__regular-price">
+                        $29.99
+                      </span>
+                      <span>-</span>
+                      <span className="featured-product__sale-price">
+                        $19.99
+                      </span>
+                    </div>
+                  </div>
+                  <Row className="timer  gx-2">
+                    <Col lg={4}>
+                      <div className="timer__hours">
+                        <h4 className="featured-product__top__timer__hours__num">
+                          2
+                        </h4>
+                        <p className="featured-product__top__timer__hours__text">
+                          Hours
+                        </p>
+                      </div>
+                    </Col>
+                    <Col lg={4}>
+                      <div className="timer__minutes">
+                        <h4 className="featured-product__top__timer__minutes__num">
+                          16
+                        </h4>
+                        <p className="featured-product__top__timer__minutes__text">
+                          Minutes
+                        </p>
+                      </div>
+                    </Col>
+                    <Col lg={4}>
+                      <div className="timer__seconds">
+                        <h4 className="featured-product__top__timer__seconds__num">
+                          27
+                        </h4>
+                        <p className="featured-product__top__timer__seconds__text">
+                          Seconds
+                        </p>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </Col>
       </Row>
     </div>
   );
