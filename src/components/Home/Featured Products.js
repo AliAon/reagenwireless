@@ -14,7 +14,7 @@ const FeaturedProducts = () => {
       <Row>
         <Col lg={6}>
           <div className="featured-product__left">
-            <div className="featured-product__detail">
+            <div className="featured-product__detail pb--20">
               <h5 className="featured-product__title">Wireless Microphone</h5>
               <div className="featured-product__prices">
                 <span className="featured-product__regular-price">$29.99</span>
