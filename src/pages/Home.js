@@ -1,19 +1,25 @@
-import { Fragment } from "react"
-import Footer from "../common/Footer"
-import Header from "../common/Header"
-import HeroSlider from "../components/Home/HeroSlider"
+import { Fragment } from "react";
+import { Container } from "react-bootstrap";
+import Footer from "../common/Footer";
+import Header from "../common/Header";
+import SectionTitle from "../common/SectionTitle";
+import Categories from "../components/Home/Categories";
+import HeroSlider from "../components/Home/HeroSlider";
+import NewArrival from "../components/Home/NewArrival";
 
-const Home=()=>{
-    return(
-        <Fragment>
-        <Header/>
-        <main>
-            <HeroSlider/>
-        </main>
-        <Footer/>
-        </Fragment>
-       
-    )
-
-}
-export default Home
+const Home = () => {
+  return (
+    <Fragment>
+      <Header />
+      <main>
+        <HeroSlider />
+        <Container>
+          <Categories />
+          <NewArrival />
+        </Container>
+      </main>
+      <Footer />
+    </Fragment>
+  );
+};
+export default Home;

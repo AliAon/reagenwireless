@@ -62,6 +62,7 @@ STYLESHEET INDEXING
 =========================================================================*/
 @import "default/variable";
 @import "default/typography";
+@import "default/spacing";
 
 /*=======================================================================
 2. Elements Styles
@@ -72,7 +73,7 @@ STYLESHEET INDEXING
 @import "elements/cartcount";
 @import "elements/button";
 @import "elements/_primary-menu";
-
+@import "elements/sectionTitle";
 
 /*=======================================================================
 3. Template Styles

@@ -1,44 +1,44 @@
 /*-------------------------
     Section Space
 -------------------------*/
-.section-padding {
-    padding: 140px 0 110px;
-    @media #{$smlg-device} {
-        padding: 100px 0 70px;
-    }
-    @media #{$md-layout} {
-        padding: 80px 0 50px;
-    }
-    @media #{$sm-layout} {
-        padding: 60px 0 30px;
-    }
-}
+// .section-padding {
+//     padding: 140px 0 110px;
+//     @media #{$smlg-device} {
+//         padding: 100px 0 70px;
+//     }
+//     @media #{$md-layout} {
+//         padding: 80px 0 50px;
+//     }
+//     @media #{$sm-layout} {
+//         padding: 60px 0 30px;
+//     }
+// }
 
-.section-padding-2 {
-    padding: 140px 0 100px;
-    @media #{$smlg-device} {
-        padding: 100px 0 60px;
-    }
-    @media #{$md-layout} {
-        padding: 80px 0 40px;
-    }
-    @media #{$sm-layout} {
-        padding: 60px 0 20px;
-    }
-}
+// .section-padding-2 {
+//     padding: 140px 0 100px;
+//     @media #{$smlg-device} {
+//         padding: 100px 0 60px;
+//     }
+//     @media #{$md-layout} {
+//         padding: 80px 0 40px;
+//     }
+//     @media #{$sm-layout} {
+//         padding: 60px 0 20px;
+//     }
+// }
 
-.section-padding-equal {
-    padding: 140px 0;
-    @media #{$smlg-device} {
-        padding: 100px 0;
-    }
-    @media #{$md-layout} {
-        padding: 80px 0;
-    }
-    @media #{$sm-layout} {
-        padding: 60px 0;
-    }
-}
+// .section-padding-equal {
+//     padding: 140px 0;
+//     @media #{$smlg-device} {
+//         padding: 100px 0;
+//     }
+//     @media #{$md-layout} {
+//         padding: 80px 0;
+//     }
+//     @media #{$sm-layout} {
+//         padding: 60px 0;
+//     }
+// }
 
 // Margin
 
@@ -113,7 +113,18 @@
 .pt--150 {
     padding-top: 150px;
 } 
-
+.pt--30 {
+    padding-top: 30px;
+} 
+.pb--30 {
+    padding-bottom: 30px;
+}
+.pt--20 {
+    padding-top: 20px;
+} 
+.pb--20 {
+    padding-bottom: 20px;
+}
 .pb--90 {
     padding-bottom: 90px;
 }
@@ -130,66 +141,66 @@
     padding: 0 30px;
 }
 
-@media #{$smlg-device} {
-    .pt_lg--200 {
-        padding-top: 200px;
-    }
-    .pt_lg--100 {
-        padding-top: 100px;
-    } 
+// @media #{$smlg-device} {
+//     .pt_lg--200 {
+//         padding-top: 200px;
+//     }
+//     .pt_lg--100 {
+//         padding-top: 100px;
+//     } 
    
-    .pb_lg--40 {
-        padding-bottom: 40px;
-    }
-    .pb_lg--20 {
-        padding-bottom: 20px;
-    }
-}
+//     .pb_lg--40 {
+//         padding-bottom: 40px;
+//     }
+//     .pb_lg--20 {
+//         padding-bottom: 20px;
+//     }
+// }
 
 
-@media #{$md-layout} {
-    .mb_md--70 {
-        margin-bottom: 70px;
-    }
-    .mb_md--30 {
-        margin-bottom: 30px;
-    }
+// @media #{$md-layout} {
+//     .mb_md--70 {
+//         margin-bottom: 70px;
+//     }
+//     .mb_md--30 {
+//         margin-bottom: 30px;
+//     }
 
-    .pt_md--100 {
-        padding-top: 100px;
-    }
-    .pt_md--80 {
-        padding-top: 80px;
-    }
+//     .pt_md--100 {
+//         padding-top: 100px;
+//     }
+//     .pt_md--80 {
+//         padding-top: 80px;
+//     }
     
-    .pb_md--70 {
-        padding-bottom: 70px;
-    }
+//     .pb_md--70 {
+//         padding-bottom: 70px;
+//     }
 
-    .pb_md--20 {
-        padding-bottom: 20px;
-    }
+//     .pb_md--20 {
+//         padding-bottom: 20px;
+//     }
 
-    .mt_md--0 {
-        margin-top: 0;
-    }
-    .mb_md--0 {
-        margin-bottom: 0;
-    }
-    .pb_md--0 {
-        padding-bottom: 0;
-    }
-}
+//     .mt_md--0 {
+//         margin-top: 0;
+//     }
+//     .mb_md--0 {
+//         margin-bottom: 0;
+//     }
+//     .pb_md--0 {
+//         padding-bottom: 0;
+//     }
+// }
 
-@media #{$sm-layout} {
-    .pt_sm--80 {
-        padding-top: 80px;
-    }
-    .pt_sm--60 {
-        padding-top: 60px;
-    }
+// @media #{$sm-layout} {
+//     .pt_sm--80 {
+//         padding-top: 80px;
+//     }
+//     .pt_sm--60 {
+//         padding-top: 60px;
+//     }
     
-    .pb_sm--0 {
-        padding-bottom: 0;
-    }
-}
+//     .pb_sm--0 {
+//         padding-bottom: 0;
+//     }
+// }

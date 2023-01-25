@@ -3,22 +3,87 @@
 -------------------------*/
 // slider-scss
 .carousel-caption {
-   bottom: 3rem!important;
+   bottom: 3rem !important;
 }
-.hero__title{
-   font-size: var(--h3)
+.hero__title {
+   font-size: var(--h3);
 }
-.shop-btn{
+.shop-btn {
    background-color: var(--color-primary);
    border: var(--font-buton-1);
    color: white;
    font-size: var(--font-buton-1);
    padding: 15px;
    border-radius: 5px;
-
-
 }
-.hero__subtile{
+.hero__subtile {
    color: white;
    font-size: 16px;
+}
+/*-------------------------
+   Category Section 
+-------------------------*/
+.categories {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.category-title {
+   font-size: var(--h5);
+   color: var(--color---h5-text-dark);
+   font-weight: bold;
+}
+.category-item {
+   list-style: none;
+   border: var(--border-light);
+   border-radius: 8px;
+   padding: 4px 0px 0px 15px;
+}
+.category-text {
+   font-size: var(--font-body-3);
+   color: var(--color-text-dark);
+}
+/*-------------------------
+   New Arrival Section 
+-------------------------*/
+
+.product-one-card {
+   border: 1px solid #a7a7a7;
+   border-radius: 15px;
+   position: relative;
+   &__image {
+      img {
+         width: 100%;
+         border-radius: 15px;
+      }
+   }
+   &__detail {
+      padding-top: 15px;
+   }
+   &__product-title {
+      text-align: center;
+      color: var(--color-text-dark);
+      font-size: var(--font-body-2);
+   }
+   &__product-price {
+      text-align: center;
+      font-size: var(--font-body-2);
+      color: var(--color-primary);
+      font-weight: 500;
+   }
+   &__label {
+      width: 40px;
+      display: block;
+      background-color: var(--color-primary);
+      height: 38px;
+      position: absolute;
+      border-radius: 50%;
+      top: 20px;
+      right: 20px;
+      &-text {
+         color: white;
+         text-align: center;
+         transform: translateY(50%);
+         font-size: 12px;
+      }
+   }
 }
