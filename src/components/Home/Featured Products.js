@@ -5,7 +5,7 @@ import ProductGridOne from "./ProductGridOne";
 
 const FeaturedProducts = () => {
   return (
-    <div className="section__new-arrival pt--30 pb--30">
+    <div className="section__featured-product pt--30 pb--30">
       <SectionTitle
         title="Featured Products"
         description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

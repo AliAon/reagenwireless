@@ -4,6 +4,7 @@ import Footer from "../common/Footer";
 import Header from "../common/Header";
 import Categories from "../components/Home/Categories";
 import FeaturedProducts from "../components/Home/Featured Products";
+import FreshSale from "../components/Home/FreshSale";
 import HeroSlider from "../components/Home/HeroSlider";
 import NewArrival from "../components/Home/NewArrival";
 import OurCollections from "../components/Home/Our Collections";
@@ -19,6 +20,7 @@ const Home = () => {
           <NewArrival />
           <FeaturedProducts/>
           <OurCollections/>
+          <FreshSale/>
         </Container>
       </main>
       <Footer />
