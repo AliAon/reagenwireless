@@ -5,7 +5,11 @@ import ProductGridOne from "./ProductGridOne";
 const NewArrival=()=>{
     return(
       <div className="section__new-arrival pt--30 pb--30">
-        <SectionTitle/>
+        <SectionTitle 
+         title="New Arrival"
+         description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+         eiusmod tempor incididunt." 
+         />
         <ProductGridOne/>
 
       </div>

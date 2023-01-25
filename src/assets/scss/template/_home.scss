@@ -1,6 +1,7 @@
 /*-------------------------
    Home 
 -------------------------*/
+
 // slider-scss
 .carousel-caption {
    bottom: 3rem !important;
@@ -86,4 +87,104 @@
          font-size: 12px;
       }
    }
+}
+/*-------------------------
+  Featured Products Section 
+-------------------------*/
+.featured-product{
+   &__left{
+      border: 1px solid #a7a7a7;
+      border-radius: 15px;
+      position: relative;
+      padding-top: 30px;
+      padding-left: 70px;
+      padding-right: 70px;
+      padding-bottom: 30px;
+  
+   }
+ 
+   &__title{
+      font-size: var(--h5);
+      color: var(--color-text-dark);
+      font-weight: 400;
+      text-align: center;
+   }
+   &__prices{
+      text-align: center;
+   }
+   &__regular-price{
+      font-size: var(--font-body-3);
+      color: var(--color-light-grey);
+      font-weight: 400;
+      text-align: center;
+      text-decoration: line-through;
+      letter-spacing: 1px;
+
+   }
+   &__sale-price{
+      font-size: var(--font-body-3);
+      color: var(--color-primary);
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-align: center;
+      
+   }
+   &s-image{
+      width: 100%;
+   }
+
+
+}
+
+.timer{
+   &__hours{
+      border: 1px solid #A7A7A7;
+      text-align: center;
+      border-radius: 15px;
+      padding: 8px;
+      &__num{
+         color: var(--color-primary);
+         font-size: var( --h5);
+         font-weight: 700;
+      }
+      &__text{
+         color: var(--color-text-dark);
+         font-size: var(--font-body-3);
+         font-weight: 400;
+      }
+   }
+   &__minutes{
+      border: 1px solid #A7A7A7;
+      text-align: center;
+      border-radius: 15px;
+      padding: 8px;
+      &__num{
+         color: var(--color-primary);
+         font-size: var( --h5);
+         font-weight: 700;
+      }
+      &__text{
+         color: var(--color-text-dark);
+         font-size: var(--font-body-3);
+         font-weight: 400;
+      }
+   }
+   &__seconds{
+      border: 1px solid #A7A7A7;
+      text-align: center;
+      border-radius: 15px;
+      padding: 8px;
+      &__num{
+         color: var(--color-primary);
+         font-size: var( --h5);
+         font-weight: 700;
+      }
+      &__text{
+         color: var(--color-text-dark);
+         font-size: var(--font-body-3);
+         font-weight: 400;
+      }
+   }
+  
+  
 }
