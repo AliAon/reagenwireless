@@ -8,6 +8,7 @@ import FreshSale from "../components/Home/FreshSale";
 import HeroSlider from "../components/Home/HeroSlider";
 import NewArrival from "../components/Home/NewArrival";
 import OurCollections from "../components/Home/Our Collections";
+import TopRatedProduct from "../components/Home/TopRatedProduct";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
           <FeaturedProducts/>
           <OurCollections/>
           <FreshSale/>
+          <TopRatedProduct/>
         </Container>
       </main>
       <Footer />

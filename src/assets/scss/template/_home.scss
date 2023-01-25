@@ -433,6 +433,12 @@ Product Tow Section
          @include sale-price
  
       }
+      &-price{
+         @include product-price
+      }
+      &__add-to-cart{
+         @include primary_button
+      }
    }
    &__available{
       font-size: var(--font-body-3);
@@ -461,4 +467,7 @@ Product Tow Section
 
       }
    }
+}
+.ratting{
+   margin-bottom: 10px;
 }

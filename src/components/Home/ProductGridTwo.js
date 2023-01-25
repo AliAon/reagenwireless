@@ -2,7 +2,7 @@ import { Col, Row,ProgressBar } from "react-bootstrap";
 
 const ProductGridTwo = () => {
   return (
-    <Row>
+    <Row className="pt--20 pb--20">
       <Col lg={3}>
       <div className="fresh-sale-gird__left__item-detail ">
               <h4 className="fresh-sale-gird-counter__title">Up to 30% Off!</h4>
