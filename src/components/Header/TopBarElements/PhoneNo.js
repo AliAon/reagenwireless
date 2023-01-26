@@ -1,15 +1,15 @@
 import { Fragment } from "react";
 import {Row,Col} from "react-bootstrap"
 import {FaPhoneAlt} from "react-icons/fa"
-const PhoneNo=()=>{
+const PhoneNo=(props)=>{
     return(
         <Fragment>
             <Row>
-                <Col lg={2}>
-                 <FaPhoneAlt size={14} color="#3267E3"/>
+              <Col lg={props.iconwidth}>
+                 <FaPhoneAlt size={14} color={props["icon-color"]}/>
                 </Col>
                 <Col  lg={10}>
-                    <span className="phone-text">1-877-724-3266</span>
+                    <span className={`phone-text color-${props.color}`}>1-877-724-3266</span>
                 </Col>
             </Row>
        </Fragment>

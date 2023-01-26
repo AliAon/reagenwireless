@@ -1,15 +1,15 @@
 import { Fragment } from "react";
 import {Row,Col} from "react-bootstrap"
 import {FaEnvelope} from "react-icons/fa"
-const EmailAddress=()=>{
+const EmailAddress=(props)=>{
     return(
         <Fragment>
             <Row>
-                <Col lg={2}>
-                 <FaEnvelope size={15} color="#3267E3"/>
+                <Col lg={props.iconwidth}>
+                 <FaEnvelope size={15} color={props["icon-color"]}/>
                 </Col>
                 <Col  lg={10}>
-                    <span className="email-text">www.reaganwireless.com</span>
+                    <span className={`email-text color-${props.color}`}>www.reaganwireless.com</span>
                 </Col>
             </Row>
        </Fragment>

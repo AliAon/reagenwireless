@@ -23,3 +23,17 @@
         clear: both;
     }
 }
+.contact-info{
+    &__card {
+        @include card;
+        padding-top: 80px;
+        padding-right: 50px;
+        padding-bottom: 80px;
+        padding-left: 50px;
+        background-color: var(--color-primary);
+    }
+}
+.follow-us__text{
+    color: white;
+    font-size: var(--font-body-1);
+}

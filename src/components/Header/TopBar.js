@@ -7,16 +7,16 @@ const TopBar=()=>{
     return(
         <Row className="pt-1 pb-1">
             <Col lg={2}>
-                <SocialLinks/>
+                <SocialLinks  iconwidth={2} color="#A7A7A7" />
             </Col>
             <Col lg={6}>
             
             </Col>
             <Col lg={2}>
-                <PhoneNo/>
+            <PhoneNo color="primary"  iconwidth={2}  icon-color="#3267E3" />
             </Col>
             <Col lg={2}>
-                <EmailAddress/>
+                <EmailAddress color="primary" iconwidth={2} icon-color="#3267E3" />
             </Col>
         </Row>
     )

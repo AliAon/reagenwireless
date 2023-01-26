@@ -172,3 +172,11 @@ p {
         text-align: right;
     }
 }
+.color{
+    &-white{
+        color: white;
+    }
+    &-primary{
+        color: var(--color-primary);
+    }
+}
