@@ -7,3 +7,17 @@
         width: 100%;
     }
 }
+.OurTeam {
+   &__team-detail{
+    font-size: var(--font-body-2);
+    color: var(--color-light-grey);
+    text-align: center;
+   }
+   &__title{
+    @include blog__title;
+    text-align:center;
+    font-size: var(--font-body-1);
+    color: var(--color-text-dark);
+
+}
+}
