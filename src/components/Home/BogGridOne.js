@@ -11,7 +11,7 @@ const BogGridOne = () => {
           <div className="blog-one-card__detail">
             <div className="blog-one-card__detail pb--15">
               <h5 className="blog-one-card__blog__title">
-                We Offer the Best Quality blog to Our Customers
+                We Offer the Best Quality blog...
               </h5>
               <p className="blog-one-card__blog__author-detail">by <span className="blog-one-card__blog__author">Admin,</span> 12 Jan 2022</p>
             </div>
