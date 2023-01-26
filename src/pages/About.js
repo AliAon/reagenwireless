@@ -13,6 +13,7 @@ import TopRatedProduct from "../components/Home/TopRatedProduct";
 import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
 import AboutInfo from "../components/About/AboutInfo";
+import WhyChoosingUs from "../components/About/WhyChoosingUs";
 
 const About = () => {
   return (
@@ -21,6 +22,7 @@ const About = () => {
       <main>
         <Container>
           <AboutInfo />
+          <WhyChoosingUs/>
         </Container>
       </main>
       <Footer />

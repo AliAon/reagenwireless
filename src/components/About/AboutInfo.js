@@ -22,7 +22,7 @@ const AboutInfo = () => {
         </Row>
         <Row>
           <Col>
-            <img src="" />
+            <img src="./images/about/background (2).png" className="aboutinfo-section__image" />
           </Col>
         </Row>
       </Row>
