@@ -1,0 +1,15 @@
+.login-form{
+    &__title{
+        font-size: var(--h4);
+        color: var(--color---h3-text-dark);
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+    }
+    &__description{
+        font-size: var(--font-body-3);
+        color: var(--color-light-grey);
+        line-height: 1.5;
+        text-align: center;
+    }
+}

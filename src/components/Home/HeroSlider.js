@@ -27,7 +27,7 @@ function HeroSlider() {
           alt="Second slide"
         />
 
-        <Carousel.Caption className="text-left">
+        <Carousel.Caption>
           <div className="slide-content">
             <h2 className="hero__title">Better Devices for Better Life</h2>
             <p className="hero__subtile">

@@ -68,3 +68,19 @@
    font-weight: 400;
    text-align: center;
 }
+.btn-block{
+   width: 100%;
+}
+.forget-passwrd{
+   float: right;
+}
+.forget-passwrd::after{
+   clear: both;
+}
+.container-signup{
+   background-image: url("../../../../public//images/body/unsplash_Lki74Jj7H-U.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
