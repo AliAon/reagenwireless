@@ -12,7 +12,11 @@ const WhyChoosingUs = () => {
       <Row className="WhyChoosingUs-section pt--20 pb--20">
         <Row>
           <Col>
-            <SectionTitle title="Why Choosing Us" width={8} />
+            <SectionTitle 
+             title="Why Choosing Us"
+             width={8}   
+             align="center"
+                  />
           </Col>
         </Row>
         <Row>

@@ -8,6 +8,8 @@ const Blog = () => {
     <div className="section__our-collection pt--30 pb--30">
       <SectionTitle
         title="Blog"
+        align="center"
+
       />
       <BogGridOne/>
     </div>

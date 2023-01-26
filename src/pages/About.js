@@ -25,6 +25,8 @@ const About = () => {
           <AboutInfo />
           <WhyChoosingUs/>
           <OurTeam/>
+          <CtaOne/>
+          <Brand/>
         </Container>
       </main>
       <Footer />

@@ -5,7 +5,7 @@
 // @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 // body {
-//     font-family: var(--font-secondary);    
+//     font-family: var(--font-secondary);
 //     font-size: var(--font-body-2);
 //     line-height: var(--line-height-b1);
 //     color: var(--color-body);
@@ -58,7 +58,6 @@
 //     letter-spacing: -0.025em;
 //     color: var(--color-text-dark);
 // }
-
 
 // h1,
 // .h1 {
@@ -138,7 +137,6 @@
 //     }
 // }
 
-
 p {
     font-size: var(--font-body-2);
     line-height: var(--line-height-b1);
@@ -161,3 +159,16 @@ p {
 //     font-size: var(--font-body-4);
 //     line-height: var(--line-height-b3);
 // }
+
+//Text Alignment
+.text {
+    &-center {
+        text-align: center;
+    }
+    &-left {
+        text-align: left;
+    }
+    &-right {
+        text-align: right;
+    }
+}

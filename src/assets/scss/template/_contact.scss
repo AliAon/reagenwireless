@@ -1,0 +1,25 @@
+.contact-form {
+    &__card {
+        @include card;
+        padding-top: 30px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+    }
+    &__form-input {
+        background-color: #FAFAFA!important;
+    }
+    &__submit-btn{
+        @include primary_button;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top:  10px;
+        text-align: right;
+        float: right;
+    }
+    &__submit-btn::after{
+        content: "";
+        clear: both;
+    }
+}

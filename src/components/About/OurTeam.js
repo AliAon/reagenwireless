@@ -11,7 +11,10 @@ const OurTeam = () => {
             <SectionTitle 
             title="Our Team"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. "
-             width={4} />
+             width={4} 
+             align="center"
+
+             />
           </Col>
         </Row>
         <Row className="pt--20 pb--20">

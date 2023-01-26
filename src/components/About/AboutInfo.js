@@ -17,6 +17,8 @@ const AboutInfo = () => {
               using various electronic goods with the latest technology, we are
               all ears to any suggestion from our dear customers"
               width={8}
+              align="center"
+
               />
           </Col>
         </Row>
