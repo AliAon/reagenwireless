@@ -9,6 +9,8 @@ const NewArrival=()=>{
          title="New Arrival"
          description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          eiusmod tempor incididunt." 
+         width={4}
+
          />
         <ProductGridOne/>
 

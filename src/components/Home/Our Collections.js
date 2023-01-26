@@ -10,6 +10,7 @@ const OurCollections = () => {
         title="Our Collections"
         description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          eiusmod tempor incididunt."
+         width={4}
       />
       <Row>
         <Col lg={6}>

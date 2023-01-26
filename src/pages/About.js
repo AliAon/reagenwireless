@@ -12,23 +12,15 @@ import Blog from "../components/Home/Blog";
 import TopRatedProduct from "../components/Home/TopRatedProduct";
 import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
+import AboutInfo from "../components/About/AboutInfo";
 
 const About = () => {
   return (
     <Fragment>
       <Header />
       <main>
-        <HeroSlider />
         <Container>
-          <Categories />
-          <NewArrival />
-          <FeaturedProducts/>
-          <OurCollections/>
-          <FreshSale/>
-          <TopRatedProduct/>
-          <Blog/>
-          <CtaOne/>
-          <Brand/>
+          <AboutInfo />
         </Container>
       </main>
       <Footer />
