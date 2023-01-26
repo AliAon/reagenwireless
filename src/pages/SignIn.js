@@ -13,7 +13,11 @@ const SignIn = () => {
       <main  className="container-signup">
         <Container>
           <Row className="section-signin pt--50 pb--50">
-           
+            <Row  className="mb--20">
+              <Col className="text-center ">
+                <Logo/>
+              </Col>
+            </Row>
             <Col lg={3}></Col>
             <Col lg={6}>
               <Card className="pt--50 pb--50 pl--50 pr--50">

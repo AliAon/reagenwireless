@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Container,Row,Col,Card } from "react-bootstrap";
 import Footer from "../common/Footer";
 import Header from "../common/Header";
-
+import Logo from "../components/Header/MiddleHeaderElements/Logo";
 import CreateAccountForm from "../components/AuthForm/CreateAccountForm";
 
 const SignUp = () => {
@@ -12,7 +12,11 @@ const SignUp = () => {
       <main  className="container-signup">
         <Container>
         <Row className="section-signup pt--50 pb--50">
-           
+        <Row  className="mb--20">
+              <Col className="text-center ">
+                <Logo/>
+              </Col>
+            </Row>
            <Col lg={3}></Col>
            <Col lg={6}>
              <Card className="pt--50 pb--50 pl--50 pr--50">
