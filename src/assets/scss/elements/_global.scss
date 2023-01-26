@@ -47,4 +47,24 @@
    padding-top: 5px;
    padding-bottom: 5px;
 }
+//card
+@mixin card {
+   border: 1px solid #a7a7a7;
+   border-radius: 15px;
+   padding: 15px;
+}
+//blog
+@mixin blog__title {
+   text-align: left;
+   color: var(--color-text-dark);
+   font-size: var(--font-body-2);
+   line-height:  1.5;
+}
 
+//brand
+.brand{
+   color: #a7a7a7;
+   font-size: var( --h4);
+   font-weight: 400;
+   text-align: center;
+}

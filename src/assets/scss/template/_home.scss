@@ -2,10 +2,6 @@
    Home 
 -------------------------*/
 
-
-
-
-
 // slider-scss
 .carousel-caption {
    bottom: 3rem !important;
@@ -65,10 +61,10 @@
       padding-top: 15px;
    }
    &__product-title {
-    @include product__title
+      @include product__title;
    }
    &__product-price {
-      @include product-price
+      @include product-price;
    }
    &__label {
       width: 40px;
@@ -111,13 +107,13 @@
       text-align: center;
    }
    &__regular-price {
-      @include regular-price
+      @include regular-price;
    }
    &__sale-price {
-     @include sale-price
+      @include sale-price;
    }
    &s-image-main {
-   @include image-main
+      @include image-main;
    }
 
    &-detail {
@@ -147,14 +143,13 @@
       }
       &__title {
          @include product__title;
-         text-align: left!important;
-         
+         text-align: left !important;
       }
       &__regular-price {
-        @include regular-price
+         @include regular-price;
       }
       &__sale-price {
-        @include sale-price
+         @include sale-price;
       }
       &__timer__hours {
          &__num {
@@ -328,7 +323,7 @@ FreshSale Section
    &__item-detail {
       background-color: var(--color-primary);
       border-radius: 30px;
-      padding-top: 40px;      
+      padding-top: 40px;
       padding-bottom: 22px;
    }
 }
@@ -343,10 +338,8 @@ FreshSale Section
    font-size: var(--font-body-1);
    text-align: center;
    color: white;
- 
 }
-.fresh-sale-gird-timer{
-
+.fresh-sale-gird-timer {
    &__hours {
       border: 1px solid #a7a7a7;
       text-align: center;
@@ -405,9 +398,7 @@ Product Tow Section
 -------------------------*/
 
 .product-two-card {
-   border: 1px solid #a7a7a7;
-   border-radius: 15px;
-   padding: 15px;
+   @include card;
    position: relative;
    &__image {
       img {
@@ -419,32 +410,31 @@ Product Tow Section
       padding-top: 15px;
    }
    &__product__title {
-      @include product__title
+      @include product__title;
    }
 
-   &__product{
+   &__product {
       &__prices {
          text-align: center;
       }
       &__regular-price {
-         @include regular-price
+         @include regular-price;
       }
       &__sale-price {
-         @include sale-price
- 
+         @include sale-price;
       }
-      &-price{
-         @include product-price
+      &-price {
+         @include product-price;
       }
-      &__add-to-cart{
-         @include primary_button
+      &__add-to-cart {
+         @include primary_button;
       }
    }
-   &__available{
+   &__available {
       font-size: var(--font-body-3);
       color: var(--color-text-dark);
    }
-   &__sold{
+   &__sold {
       font-size: var(--font-body-3);
       color: var(--color-text-dark);
    }
@@ -464,10 +454,74 @@ Product Tow Section
          text-align: center;
          font-size: 12px;
          transform: translateY(8px);
-
       }
    }
 }
-.ratting{
+.ratting {
    margin-bottom: 10px;
+}
+
+/*-------------------------
+Blogone Section 
+-------------------------*/
+.blog-one-card {
+   @include card;
+   padding: 0px;
+   border-radius: 22px;
+   position: relative;
+   &__image {
+      img {
+         width: 100%;
+         border-radius: 15px;
+      }
+   }
+   &__detail {
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+   &__blog {
+      &__title {
+         @include blog__title;
+      }
+      &__author-detail {
+         color: #a7a7a7;
+         font-size: var(--font-body-3);
+      }
+      &__author {
+         color: var(--color-primary);
+      }
+   }
+}
+/*-------------------------
+CtaOne Section 
+-------------------------*/
+
+.section__cta{
+   background-image: url('./../../../../public/images/cta/background\ \(1\).png');
+   height: 350px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 30px;
+   &__news-letter{
+      transform: translate(20%,60%);
+      &__title{
+         font-size: var(--h4);
+         color: white;
+      }
+      &__description{
+         color: white;
+      }
+
+      &__search__btn{
+         background-color: var(--color-primary);
+         background-color: var(--color-primary);
+         color: white;
+         font-size: var(--font-body-3);
+   
+      }
+   }
+ 
+
 }

@@ -8,7 +8,10 @@ import FreshSale from "../components/Home/FreshSale";
 import HeroSlider from "../components/Home/HeroSlider";
 import NewArrival from "../components/Home/NewArrival";
 import OurCollections from "../components/Home/Our Collections";
+import Blog from "../components/Home/Blog";
 import TopRatedProduct from "../components/Home/TopRatedProduct";
+import CtaOne from "../components/Home/CtaOne";
+import Brand from "../common/Brand";
 
 const Home = () => {
   return (
@@ -23,6 +26,9 @@ const Home = () => {
           <OurCollections/>
           <FreshSale/>
           <TopRatedProduct/>
+          <Blog/>
+          <CtaOne/>
+          <Brand/>
         </Container>
       </main>
       <Footer />
