@@ -20,7 +20,7 @@ const Footer = () => {
                   <div>
                     <Row>
                       <Col lg={7}>
-                         <SocialLinks />
+                      <SocialLinks  iconwidth={2} color="#A7A7A7" />
                       </Col>
                     </Row>
                   </div>
@@ -49,8 +49,8 @@ const Footer = () => {
           </Col>
           <Col lg={2}>
             <h5 className="footer__menu-title">Contact</h5>
-            <PhoneNo />
-            <EmailAddress />
+            <PhoneNo color="primary"  iconwidth={2}  icon-color="#3267E3" />
+            <EmailAddress color="primary" iconwidth={2} icon-color="#3267E3" />
           </Col>
         </Row>
         <Row >
