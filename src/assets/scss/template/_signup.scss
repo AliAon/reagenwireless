@@ -1,4 +1,4 @@
-.login-form{
+.create-account-form{
     &__title{
         font-size: var(--h4);
         color: var(--color---h3-text-dark);
@@ -22,24 +22,10 @@
    &__password{
     background-color: #FAFAFA;
    }
-   &__remember_me{
-    color: var(--color-light-grey);
-   }
-   &__forget-passwrd{
-    color: var(--color-primary);
-    font-size: var(--font-body-2);
-    text-decoration: none;
-    float: right;
-   }
-   &__login-with{
-    font-size: var(--font-body-1);
-    float: left;
-    margin-top: 5px;
-    color: var(--color-text-dark);
-   }
-   &__btn-signin{
+   &__btn-signup{
     background-color: var(--color-primary);
    }
+  
 }
 .signup__card{
     background-color: #fafafa;

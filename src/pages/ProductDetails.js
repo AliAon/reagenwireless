@@ -2,17 +2,17 @@ import { Fragment } from "react";
 import { Container } from "react-bootstrap";
 import Footer from "../common/Footer";
 import Header from "../common/Header";
-import TopRatedProduct from "../components/Home/TopRatedProduct";
 import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
+import ProductDetailsOne from "../components/ProductDetails/ProductDetailsOne";
 
-const Products = () => {
+const ProductDetails = () => {
   return (
     <Fragment>
       <Header />
       <main>
         <Container>
-          <TopRatedProduct/>
+           <ProductDetailsOne/>
           <CtaOne/>
           <Brand/>
         </Container>
@@ -21,4 +21,4 @@ const Products = () => {
     </Fragment>
   );
 };
-export default Products;
+export default ProductDetails;

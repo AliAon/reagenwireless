@@ -76,6 +76,8 @@ STYLESHEET INDEXING
 @import "elements/sectionTitle";
 @import "elements/global";
 @import "elements/iconTopBox";
+@import "elements/breadcrumb";
+
 /*=======================================================================
 3. Template Styles
 =========================================================================*/
@@ -83,7 +85,8 @@ STYLESHEET INDEXING
 @import "template/about";
 @import "template/contact";
 @import "template/signin";
-
+@import "template/_signup";
+@import "template/product-details";
 
 /*=======================================================================
 4.Blocks Styles 
