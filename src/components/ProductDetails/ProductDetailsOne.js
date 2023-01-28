@@ -48,7 +48,7 @@ const ProductDetailsOne = () => {
         <Col lg={5}>
           <Breadcrumb />
           <Row>
-            <Col lg={6}>
+            <Col lg={7}>
               <ul className="product___reviews-info-list">
                 <li>
                   <div className="ratting">
@@ -81,7 +81,7 @@ const ProductDetailsOne = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={6}>
+            <Col lg={5}>
               <div className="product-details__wish-container">
                 <ul className="product-details__wish-heart">
                   <li className="pr--10">
@@ -98,7 +98,7 @@ const ProductDetailsOne = () => {
             Wireless Microphone
           </h4>
           <Row className="mb--40">
-            <Col lg={6}>
+            <Col lg={7}>
               <ul className="product-details__prices">
                 <li>
                   <h4 className="product-details__regular-price">$29.00</h4>
@@ -155,32 +155,47 @@ const ProductDetailsOne = () => {
             </p>
           </div>
           <Row>
-            <Col lg={2}>
-              <label>Quantity</label>
+            <Col lg={1}>
+              <label className="product-details__qty-label">Quantity</label>
             </Col>
             <Col>
               <Form>
                 <InputGroup className="mb-3">
-                  <Row>
-                    <Col lg={6}>
-                      <Button variant="outline-secondary" id="button-addon1">
-                        <FaMinus />
-                      </Button>
-                      <Form.Control
-                        aria-label=""
-                        aria-describedby="basic-addon2"
-                        type="text"
-                        step="1"
-                      />
-                      <Button variant="outline-secondary" id="button-addon2">
-                        <FaPlus />
-                      </Button>
+                  <Row className="gx-2">
+                    <Col lg={5}>
+                      <Row className="gx-2">
+                        <Col lg={4}>
+                          <Button
+                            variant="outline-secondary"
+                            id="button-addon1"
+                            className="product-details__btn-minus"
+                          >
+                            <FaMinus />
+                          </Button>
+                        </Col>
+                        <Col lg={4}>
+                          <Form.Control
+                            aria-label=""
+                            aria-describedby="basic-addon2"
+                            type="text"
+                            step="1"
+                          />
+                        </Col>
+                        <Col lg={4}>
+                          <Button
+                            variant="outline-secondary"
+                            id="button-addon2"
+                          >
+                            <FaPlus />
+                          </Button>
+                        </Col>
+                      </Row>
                     </Col>
-                    <Col lg={2}>
-                      <Button>Chat</Button>
+                    <Col lg={3}>
+                      <Button className="product-details__chat-btn">Chat</Button>
                     </Col>
-                    <Col lg={2}>
-                      <Button>Add To Cart</Button>
+                    <Col lg={4}>
+                      <Button className="product-details__add-to-cart-btn">Add To Cart</Button>
                     </Col>
                   </Row>
                 </InputGroup>

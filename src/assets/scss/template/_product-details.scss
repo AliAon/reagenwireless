@@ -35,6 +35,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        padding: 0px;
     }
     &__wish-container{
         float: right;
@@ -103,5 +104,25 @@
             font-size: var( --font-body-3);
         }
     }
-    
+    &__chat-btn{
+        float: right;
+        background-color: white;
+        border-color: var(--color-primary);
+        color: var(--color-primary);
+        font-size: var(--font-buton-2) 
+    }
+    &__add-to-cart-btn{
+        color: var(white);
+        background-color: var(--color-primary);
+        font-size: var(--font-buton-2) 
+    }
+    &__btn-minus{
+        float: right;
+    }
+    &__qty-label{
+        padding-top: 15%;
+        font-weight: 500;
+        color: var(--color-text-dark);
+        font-size: var( --font-body-3);
+    }
 }
