@@ -94,7 +94,7 @@ const ProductDetailsOne = () => {
               </div>
             </Col>
           </Row>
-          <h4 className="product-details__product-title">
+          <h4 className="product-details__product-title mb--20">
             Wireless Microphone
           </h4>
           <Row className="mb--40">
@@ -155,7 +155,7 @@ const ProductDetailsOne = () => {
             </p>
           </div>
           <Row>
-            <Col lg={1}>
+            <Col lg={2}>
               <label className="product-details__qty-label">Quantity</label>
             </Col>
             <Col>

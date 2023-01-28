@@ -5,7 +5,7 @@ import Header from "../common/Header";
 import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
 import ProductDetailsOne from "../components/ProductDetails/ProductDetailsOne";
-
+import ProductDetailsReviews from "../components/ProductDetails/ProductDetailsReviews";
 const ProductDetails = () => {
   return (
     <Fragment>
@@ -13,6 +13,7 @@ const ProductDetails = () => {
       <main>
         <Container>
            <ProductDetailsOne/>
+           <ProductDetailsReviews/>
           <CtaOne/>
           <Brand/>
         </Container>

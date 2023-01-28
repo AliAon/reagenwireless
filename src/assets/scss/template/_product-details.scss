@@ -2,13 +2,12 @@
    Product Details 
 -------------------------*/
 
-.image-gallery{
-    &__img{
+.image-gallery {
+    &__img {
         width: 100%;
-
     }
 }
-.product___reviews-info-list{
+.product___reviews-info-list {
     list-style: none;
     display: flex;
     margin: 0px;
@@ -17,41 +16,39 @@
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-.product-details{
-    &__review-count{
+.product-details {
+    &__review-count {
         color: var(--color-light-grey);
         font-size: var(--font-body-3);
     }
-    &__bar{
+    &__bar {
         color: var(--color-light-grey);
     }
-    &__sold{
+    &__sold {
         color: var(--color-light-grey);
         font-size: var(--font-body-3);
-
     }
-    &__wish-heart{
+    &__wish-heart {
         list-style: none;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         padding: 0px;
     }
-    &__wish-container{
+    &__wish-container {
         float: right;
     }
-    &__add-to-wishlist{
+    &__add-to-wishlist {
         color: var(--color-text-dark);
         font-size: var(--font-body-2);
         font-weight: 500;
     }
-    &__product-title{
-        font-size: var( --h4);
+    &__product-title {
+        font-size: var(--h4);
         color: var(--color---h3-text-dark);
         font-weight: 400;
-
     }
-    &__prices{
+    &__prices {
         list-style: none;
         display: flex;
         padding: 0px;
@@ -60,69 +57,127 @@
         justify-content: space-between;
         flex-wrap: nowrap;
     }
-    &__regular-price{
+    &__regular-price {
         font-weight: 700;
         color: var(--color-text-dark);
-        font-size: var( --h4);
-
+        font-size: var(--h4);
     }
-    &__sale-price{
+    &__sale-price {
         font-weight: 400;
         color: var(--color-light-grey);
-        font-size: var( --font-body-3);
+        font-size: var(--font-body-3);
         text-decoration: line-through;
     }
-    &__discount-price{
+    &__discount-price {
         border: 1px solid var(--color-primary);
         border-radius: 5px;
         font-size: var(--font-body-3);
         color: var(--color-primary);
         padding: 7px;
-
     }
-    &__delivery-info{
+    &__delivery-info {
         list-style: none;
         padding: 0;
         display: flex;
         align-items: baseline;
         justify-content: space-between;
     }
-    &__delivery-free-delivery{
+    &__delivery-free-delivery {
         font-weight: 400;
         color: var(--color-text-dark);
-        font-size: var( --font-body-3);
-      
+        font-size: var(--font-body-3);
     }
-    &__description{
+    &__description {
         font-weight: 500;
         color: var(--color-text-dark);
-        font-size: var( --font-body-3);
+        font-size: var(--font-body-3);
 
-        &-text{
+        &-text {
             font-weight: 400;
             color: var(--color-light-grey);
-            font-size: var( --font-body-3);
+            font-size: var(--font-body-3);
         }
     }
-    &__chat-btn{
+    &__chat-btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
         float: right;
         background-color: white;
         border-color: var(--color-primary);
         color: var(--color-primary);
-        font-size: var(--font-buton-2) 
+        font-size: var(--font-buton-3);
     }
-    &__add-to-cart-btn{
-        color: var(white);
-        background-color: var(--color-primary);
-        font-size: var(--font-buton-2) 
+    &__add-to-cart-btn {
+        @include primary_button;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-top: 12px;
     }
-    &__btn-minus{
+    &__btn-minus {
         float: right;
     }
-    &__qty-label{
+    &__qty-label {
         padding-top: 15%;
         font-weight: 500;
         color: var(--color-text-dark);
-        font-size: var( --font-body-3);
+        font-size: var(--font-body-3);
     }
+    /*-------------------------
+   Reviews Section
+-------------------------*/
+    &__reviews-count-title {
+        font-size: var(--h6);
+        color: var(--color-primary);
+        font-weight: 700;
+        border-bottom: 1px solid var(--color-primary);
+        border-width: 2px;
+        height: 30px;
+        width: 135px;
+        padding-bottom: 40px;
+    }
+    &__reviews-list__author-name{
+        font-weight: 500;
+        color: var(--color-text-dark);
+        font-size: var(--font-body-2);
+    }
+    &__reviews-list__author-image__img{
+        width: 50px;
+
+    }
+    &__reviews-list__review-date{
+        font-weight: 400;
+        color: var(--color-light-grey);
+        width: 350px;
+        font-size: var(--font-body-3);
+    }
+    
+    &__add-your-review {
+        font-weight: 700;
+        color: var(--color-text-dark);
+        font-size: var(--font-body-2);
+    }
+    &__add-your-text {
+        font-weight: 400;
+        color: var(--color-light-grey);
+        width: 350px;
+        font-size: var(--font-body-3);
+    }
+    &__review-form {
+        &__label {
+            font-weight: 400;
+            color: var(--color-text-dark);
+            font-size: var(--font-body-2);
+        }
+        &__btn {
+            @include primary_button;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    }
+
 }
