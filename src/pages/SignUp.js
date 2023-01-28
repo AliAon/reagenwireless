@@ -17,8 +17,8 @@ const SignUp = () => {
                 <Logo/>
               </Col>
             </Row>
-           <Col lg={3}></Col>
-           <Col lg={6}>
+           <Col lg={4}></Col>
+           <Col lg={4}>
              <Card className="pt--35 pb--35 pl--50 pr--50 signup__card">
                <h4 className="login-form__title">Create Account</h4>
                <p  className="login-form__description">Don't have an account yet? Register here!</p>
@@ -27,7 +27,7 @@ const SignUp = () => {
                </Card.Body>
              </Card>
            </Col>
-           <Col lg={3}></Col>
+           <Col lg={4}></Col>
           
          </Row>
         </Container>

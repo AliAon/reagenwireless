@@ -41,7 +41,7 @@ const LoginForm=()=>{
         <Col lg={2} md={2}>
         </Col>
         <Col lg={8} className='text-center' md={8}>
-           <h4 className='login-form__login-with'>Login With:</h4> <FaFacebook color='#A7A7A7' size={30} className="mr--10"/><FaInstagram size={30} className="mr--10" color='#A7A7A7'/><FaTwitter color='#A7A7A7' size={30} className="mr--10"/>
+           <h4 className='login-form__login-with'>Login With:</h4> <FaFacebook color='#A7A7A7' size={20} className="mr--10"/><FaInstagram size={20} className="mr--10" color='#A7A7A7'/><FaTwitter color='#A7A7A7' size={20} className="mr--10"/>
         </Col>
         <Col lg={2} md={2}>
         </Col>

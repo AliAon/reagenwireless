@@ -5,7 +5,7 @@
         margin-bottom: 15px;
     }
     &__title{
-        font-size: var(--font-body-1);
+        font-size: var(--font-body-2);
         text-align: center;
         color: var(--color-text-dark);
 
@@ -15,4 +15,8 @@
         color: var(--color-light-grey);
         text-align: center;
     }
+}
+.icon-box{
+    border: 1px solid #a7a7a7;
+    border-radius: 15px;
 }
