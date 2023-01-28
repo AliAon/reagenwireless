@@ -5,6 +5,8 @@ import Header from "../common/Header";
 import TopRatedProduct from "../components/Home/TopRatedProduct";
 import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
+import ProductGridThree from "../components/Home/ProductGridThree";
+import SectionTitle from "../common/SectionTitle";
 
 const Products = () => {
   return (
@@ -12,7 +14,16 @@ const Products = () => {
       <Header />
       <main>
         <Container>
-          <TopRatedProduct/>
+          <SectionTitle
+          align="center"
+          title="Products"
+          />
+          <ProductGridThree/>
+          <ProductGridThree/>
+          <div className="mb--40">
+
+          </div>
+
           <CtaOne/>
           <Brand/>
         </Container>
