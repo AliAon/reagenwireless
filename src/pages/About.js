@@ -15,11 +15,13 @@ import Brand from "../common/Brand";
 import AboutInfo from "../components/About/AboutInfo";
 import WhyChoosingUs from "../components/About/WhyChoosingUs";
 import OurTeam from "../components/About/OurTeam";
+import HeaderMobile from "../common/HeaderMobile";
 
 const About = () => {
   return (
     <Fragment>
       <Header />
+      <HeaderMobile/>
       <main>
         <Container>
           <AboutInfo />

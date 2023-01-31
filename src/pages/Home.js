@@ -12,11 +12,13 @@ import Blog from "../components/Home/Blog";
 import TopRatedProduct from "../components/Home/TopRatedProduct";
 import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
+import HeaderMobile from "../common/HeaderMobile";
 
 const Home = () => {
   return (
     <Fragment>
       <Header />
+      <HeaderMobile/>
       <main>
         <HeroSlider />
         <Container>

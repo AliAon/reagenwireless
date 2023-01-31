@@ -37,3 +37,22 @@
     color: white;
     font-size: var(--font-body-1);
 }
+@media only screen and (max-width: 479px) {
+    .contact-form {
+        &__submit-btn{
+            @include primary_button;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-top:  10px;
+            text-align: right;
+            float: left;
+            margin-top: 10px;
+        }
+        &__submit-btn::after{
+            content: "";
+            clear: both;
+        } 
+    }
+   
+ }

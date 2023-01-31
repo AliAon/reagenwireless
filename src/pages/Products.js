@@ -7,11 +7,12 @@ import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
 import ProductGridThree from "../components/Home/ProductGridThree";
 import SectionTitle from "../common/SectionTitle";
-
+import HeaderMobile from "../common/HeaderMobile";
 const Products = () => {
   return (
     <Fragment>
       <Header />
+      <HeaderMobile/>
       <main>
         <Container>
           <SectionTitle

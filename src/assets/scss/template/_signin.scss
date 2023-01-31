@@ -61,3 +61,14 @@
     left: 50%;
     width: 100%;
 }
+
+@media only screen and (max-width: 479px) {
+    .section-signup{
+        transform: translate(-47%, -50%);
+   
+    }
+    .section-signin{
+        transform: translate(-47%, -50%);
+       
+    }
+}

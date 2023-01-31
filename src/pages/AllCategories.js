@@ -25,11 +25,13 @@ import {
 import { IoMdWatch } from "react-icons/io";
 import { BsHeadphones, BsSpeaker } from "react-icons/bs";
 import InputGroup from "react-bootstrap/InputGroup";
+import HeaderMobile from "../common/HeaderMobile";
 const AllCategories = () => {
   const type = "checkbox";
   return (
     <Fragment>
       <Header />
+      <HeaderMobile/>
       <main>
         <Container>
           <SectionTitle

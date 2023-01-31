@@ -31,7 +31,7 @@ const ContactForm = (props) => {
               />
             </FloatingLabel>
             <Row>
-              <Col>
+              <Col xs={12}>
                 <Form.Check
                   inline
                   label="Accept Terms & Condition"
@@ -40,7 +40,7 @@ const ContactForm = (props) => {
                   id={`inline-${type}-1`}
                 />
               </Col>
-              <Col>
+              <Col xs={12}>
                 <Button className="contact-form__submit-btn" type="submit">
                   Submit
                 </Button>

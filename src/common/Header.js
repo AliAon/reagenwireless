@@ -5,7 +5,7 @@ import TopBar from "../components/Header/TopBar"
 
 const Header=()=>{
     return(
-        <header>
+        <header className="desktop-header">
           <Container>
             {/* Top Bar */}
             <TopBar/>

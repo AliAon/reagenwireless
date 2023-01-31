@@ -6,10 +6,12 @@ import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
 import ProductDetailsOne from "../components/ProductDetails/ProductDetailsOne";
 import ProductDetailsReviews from "../components/ProductDetails/ProductDetailsReviews";
+import HeaderMobile from "../common/HeaderMobile";
 const ProductDetails = () => {
   return (
     <Fragment>
       <Header />
+      <HeaderMobile/>
       <main>
         <Container>
            <ProductDetailsOne/>

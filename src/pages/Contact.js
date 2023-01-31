@@ -11,10 +11,12 @@ import LocationAddress from "../components/Header/TopBarElements/LocationAddress
 import NewsletterForm from "../common/NewsletterForm";
 import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
+import HeaderMobile from "../common/HeaderMobile";
 const Contact = () => {
   return (
     <Fragment>
       <Header />
+      <HeaderMobile/>
       <main>
         <Container>
           <Row>
@@ -28,7 +30,7 @@ const Contact = () => {
             </Col>
             <Col lg={5}></Col>
           </Row>
-          <Row className="mb--50">
+          <Row className="mb--50 gy-4">
             <Col lg={7}>
               <div className="contact-form__card">
                 <ContactForm />
@@ -43,11 +45,11 @@ const Contact = () => {
                       <LocationAddress  iconwidth={1} color="white" icon-color="white" />
                     </div>
                     <div className="mb--15">
-                      <PhoneNo  iconwidth={1} color="white" icon-color="white" />
+                      <PhoneNo  iconwidth={1} color="white" iconwidthsmall={1} icon-color="white" />
                     </div>
 
                     <div className="mb--15">
-                      <EmailAddress  iconwidth={1} icon-color="white" color="white" />
+                      <EmailAddress  iconwidth={1} icon-color="white" iconwidthsmall={1} color="white" />
                     </div>
                   </Col>
                   <Col></Col>
