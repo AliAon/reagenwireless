@@ -8,6 +8,7 @@ import Brand from "../common/Brand";
 import ProductGridThree from "../components/Home/ProductGridThree";
 import SectionTitle from "../common/SectionTitle";
 import HeaderMobile from "../common/HeaderMobile";
+import Breadcrumb from "../common/Breadcrumb";
 const Products = () => {
   return (
     <Fragment>
@@ -15,6 +16,7 @@ const Products = () => {
       <HeaderMobile/>
       <main>
         <Container>
+        <Breadcrumb  name="Products" previous="Home"/>
           <SectionTitle
           align="center"
           title="Products"

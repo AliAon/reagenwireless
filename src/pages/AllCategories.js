@@ -26,6 +26,7 @@ import { IoMdWatch } from "react-icons/io";
 import { BsHeadphones, BsSpeaker } from "react-icons/bs";
 import InputGroup from "react-bootstrap/InputGroup";
 import HeaderMobile from "../common/HeaderMobile";
+import Breadcrumb from "../common/Breadcrumb";
 const AllCategories = () => {
   const type = "checkbox";
   return (
@@ -34,6 +35,7 @@ const AllCategories = () => {
       <HeaderMobile/>
       <main>
         <Container>
+          <Breadcrumb name="All Categories" previous="Home"/>
           <SectionTitle
             align="center"
             title="All Categories"

@@ -12,6 +12,7 @@ import NewsletterForm from "../common/NewsletterForm";
 import CtaOne from "../components/Home/CtaOne";
 import Brand from "../common/Brand";
 import HeaderMobile from "../common/HeaderMobile";
+import Breadcrumb from "../common/Breadcrumb";
 const Contact = () => {
   return (
     <Fragment>

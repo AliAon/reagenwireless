@@ -16,6 +16,7 @@ import AboutInfo from "../components/About/AboutInfo";
 import WhyChoosingUs from "../components/About/WhyChoosingUs";
 import OurTeam from "../components/About/OurTeam";
 import HeaderMobile from "../common/HeaderMobile";
+import Breadcrumb from "../common/Breadcrumb";
 
 const About = () => {
   return (
@@ -24,6 +25,7 @@ const About = () => {
       <HeaderMobile/>
       <main>
         <Container>
+          <Breadcrumb  name="About" previous="Home"/>
           <AboutInfo />
           <WhyChoosingUs/>
           <OurTeam/>

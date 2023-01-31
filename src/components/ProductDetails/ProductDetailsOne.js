@@ -46,7 +46,7 @@ const ProductDetailsOne = () => {
           </div>
         </Col>
         <Col lg={5}>
-          <Breadcrumb />
+          <Breadcrumb name="Wireless Microphone" previous="Product"/>
           <Row>
             <Col lg={7} xs={8}>
               <ul className="product___reviews-info-list">
