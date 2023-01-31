@@ -2,7 +2,7 @@ import { Col, Row, ProgressBar } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
 const BogGridOne = () => {
   return (
-    <Row className="pt--20 pb--20">
+    <Row className="pt--20 pb--20 gy-4">
       <Col lg={4}>
         <div className="blog-one-card">
           <div className="blog-one-card__image">

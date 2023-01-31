@@ -8,39 +8,39 @@ import InputGroup from "react-bootstrap/InputGroup";
 const ProductDetailsOne = () => {
   return (
     <div className="section__product-details pt--30 pb--30">
-      <Row className="gx-5">
-        <Col lg={7}>
+      <Row className="gx-5 " >
+        <Col lg={7} >
           <div className="image-gallery">
             <img
               src="./images/products/placeholder (10).png"
               className="image-gallery__img"
             />
             <Row className="mt--20">
-              <Col lg={3}>
-                <img src="./images/products/arrow.png" />
+              <Col lg={3} xs={2}>
+                <img src="./images/products/arrow.png"     className="image-gallery__img-arrow"/>
               </Col>
 
-              <Col lg={2}>
+              <Col lg={2} xs={2}>
                 <img
                   src="./images/products/placeholder (11).png"
                   className="image-gallery__img"
                 />
               </Col>
 
-              <Col lg={2}>
+              <Col lg={2} xs={2}>
                 <img
                   src="./images/products/placeholder (11).png"
                   className="image-gallery__img"
                 />
               </Col>
-              <Col lg={2}>
+              <Col lg={2} xs={2}>
                 <img
                   src="./images/products/placeholder (11).png"
                   className="image-gallery__img"
                 />
               </Col>
-              <Col lg={3}>
-                <img src="./images/products/arrow (1).png" />
+              <Col lg={3} xs={2}>
+                <img src="./images/products/arrow (1).png" className="image-gallery__img-arrow" />
               </Col>
             </Row>
           </div>
@@ -48,7 +48,7 @@ const ProductDetailsOne = () => {
         <Col lg={5}>
           <Breadcrumb />
           <Row>
-            <Col lg={7}>
+            <Col lg={7} xs={8}>
               <ul className="product___reviews-info-list">
                 <li>
                   <div className="ratting">
@@ -98,7 +98,7 @@ const ProductDetailsOne = () => {
             Wireless Microphone
           </h4>
           <Row className="mb--40">
-            <Col lg={7}>
+            <Col lg={7} xs={8}>
               <ul className="product-details__prices">
                 <li>
                   <h4 className="product-details__regular-price">$29.00</h4>
@@ -162,9 +162,9 @@ const ProductDetailsOne = () => {
               <Form>
                 <InputGroup className="mb-3">
                   <Row className="gx-2">
-                    <Col lg={5}>
+                    <Col lg={5} xs={6}>
                       <Row className="gx-2">
-                        <Col lg={4}>
+                        <Col lg={4} xs={4}>
                           <Button
                             variant="outline-secondary"
                             id="button-addon1"
@@ -173,7 +173,7 @@ const ProductDetailsOne = () => {
                             <FaMinus />
                           </Button>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={4} xs={4}>
                           <Form.Control
                             aria-label=""
                             aria-describedby="basic-addon2"
@@ -181,7 +181,7 @@ const ProductDetailsOne = () => {
                             step="1"
                           />
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={4} xs={4} >
                           <Button
                             variant="outline-secondary"
                             id="button-addon2"
@@ -191,10 +191,10 @@ const ProductDetailsOne = () => {
                         </Col>
                       </Row>
                     </Col>
-                    <Col lg={3}>
+                    <Col lg={3} xs={2}>
                       <Button className="product-details__chat-btn">Chat</Button>
                     </Col>
-                    <Col lg={4}>
+                    <Col lg={4} xs={4}>
                       <Button className="product-details__add-to-cart-btn">Add To Cart</Button>
                     </Col>
                   </Row>

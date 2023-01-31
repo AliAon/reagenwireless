@@ -83,7 +83,6 @@
  --h4: 32px; 
  --h5: 24px; 
  --h6: 20px; 
-}
 
 // Layouts Variation
 // $smlg-device: 'only screen and (max-width: 1199px)';
@@ -93,5 +92,6 @@
 // $md-layout:'only screen and (max-width: 991px)';
 // $sm-layout:'only screen and (max-width: 767px)';
 // $large-mobile: 'only screen and (max-width: 575px)';
-// $small-mobile: 'only screen and (max-width: 479px)';
+--small-mobile: 'only screen and (max-width: 479px)';
 
+}

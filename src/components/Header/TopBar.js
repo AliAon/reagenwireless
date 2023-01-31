@@ -13,10 +13,10 @@ const TopBar=()=>{
             
             </Col>
             <Col lg={2}>
-            <PhoneNo color="primary"  iconwidth={2}  icon-color="#3267E3" />
+            <PhoneNo color="primary"  iconwidth={2} iconwidthsmall={1}  icon-color="#3267E3" />
             </Col>
             <Col lg={2}>
-                <EmailAddress color="primary" iconwidth={2} icon-color="#3267E3" />
+                <EmailAddress color="primary" iconwidth={2}  iconwidthsmall={1} icon-color="#3267E3" />
             </Col>
         </Row>
     )

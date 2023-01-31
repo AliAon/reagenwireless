@@ -14,7 +14,7 @@ const OurCollections = () => {
          align="center"
 
       />
-      <Row>
+      <Row className="gy-2">
         <Col lg={6}>
           <div className="collection">
             <img

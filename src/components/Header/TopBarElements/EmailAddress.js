@@ -4,8 +4,9 @@ import {FaEnvelope} from "react-icons/fa"
 const EmailAddress=(props)=>{
     return(
         <Fragment>
-            <Row>
-                <Col lg={props.iconwidth}>
+            <Row className="x-nowrap"> 
+
+                <Col lg={props.iconwidth} xs={props.iconwidthsmall}>
                  <FaEnvelope size={15} color={props["icon-color"]}/>
                 </Col>
                 <Col  lg={10}>

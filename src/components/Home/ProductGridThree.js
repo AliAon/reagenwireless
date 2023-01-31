@@ -2,7 +2,7 @@ import { Col, Row,ProgressBar } from "react-bootstrap";
 import {FaStar} from "react-icons/fa"
 const ProductGridThree = () => {
   return (
-    <Row className="pt--20 pb--20">
+    <Row className="pt--20 pb--20 gy-4">
       <Col lg={3}>
       <div className="product-two-card">
           <div className="product-two-card__image">

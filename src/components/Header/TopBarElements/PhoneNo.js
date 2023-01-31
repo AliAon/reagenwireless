@@ -4,8 +4,8 @@ import {FaPhoneAlt} from "react-icons/fa"
 const PhoneNo=(props)=>{
     return(
         <Fragment>
-            <Row>
-              <Col lg={props.iconwidth}>
+            <Row className="x-nowrap"> 
+              <Col lg={props.iconwidth} xs={props.iconwidthsmall}>
                  <FaPhoneAlt size={14} color={props["icon-color"]}/>
                 </Col>
                 <Col  lg={10}>

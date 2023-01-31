@@ -5,8 +5,8 @@ function Categories() {
   return (
     <div className="categories">
       <h2 className="category-title mb--30">Category</h2>
-        <Row className="gx-2 categories__grid">
-          <Col lg={2}>
+        <Row className="gx-2 gy-2 categories__grid">
+          <Col lg={2} xs={6}>
             <div className="category-item">
             <Row className="gx-2 align-items-baseline">
               <Col lg={2}>
@@ -18,7 +18,7 @@ function Categories() {
             </Row>
            </div>
           </Col>
-          <Col >
+          <Col lg={2} xs={6}>
           <div className="category-item">
             <Row className="gx-1">
             <Col lg={2}>
@@ -30,7 +30,7 @@ function Categories() {
             </Row>
            </div>
           </Col>
-          <Col >
+          <Col lg={2} xs={6}>
           <div className="category-item">
             <Row  className="gx-1">
             <Col lg={2}>
@@ -42,7 +42,7 @@ function Categories() {
             </Row>
            </div>
           </Col>
-          <Col>
+          <Col lg={2} xs={6}>
           <div className="category-item">
             <Row  className="gx-1">
               <Col lg={2}>
@@ -54,7 +54,7 @@ function Categories() {
             </Row>
            </div>
           </Col>   
-          <Col>
+          <Col lg={2} xs={6}>
           <div className="category-item">
             <Row  className="gx-1">
               <Col lg={2}>
@@ -66,7 +66,7 @@ function Categories() {
             </Row>
            </div>
           </Col>
-          <Col>
+          <Col lg={2} xs={6}>
           <div className="category-item">
             <Row  className="gx-1">
               <Col lg={2}>

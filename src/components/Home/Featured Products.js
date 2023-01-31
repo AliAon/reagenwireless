@@ -10,11 +10,10 @@ const FeaturedProducts = () => {
         title="Featured Products"
         description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          eiusmod tempor incididunt."
-         width={4}
-         align="center"
-
+        width={4}
+        align="center"
       />
-      <Row>
+      <Row className="gx-2 gy-3">
         <Col lg={6}>
           <div className="featured-product__left">
             <div className="featured-product__detail pb--20">
@@ -30,20 +29,20 @@ const FeaturedProducts = () => {
               className="featured-products-image-main"
             />
 
-            <Row className="timer pt--20 pl--30 pr--30 pb--20">
-              <Col>
+            <Row className="timer pt--20 pl--30 pr--30 pb--20 gx-1">
+              <Col lg={4} xs={4}>
                 <div className="timer__hours">
                   <h4 className="timer__hours__num">2</h4>
                   <p className="timer__hours__text">Hours</p>
                 </div>
               </Col>
-              <Col>
+              <Col lg={4} xs={4}>
                 <div className="timer__minutes">
                   <h4 className="timer__minutes__num">16</h4>
                   <p className="timer__minutes__text">Minutes</p>
                 </div>
               </Col>
-              <Col>
+              <Col lg={4} xs={4}>
                 <div className="timer__seconds">
                   <h4 className="timer__seconds__num">27</h4>
                   <p className="timer__seconds__text">Seconds</p>
@@ -81,7 +80,7 @@ const FeaturedProducts = () => {
                     </div>
                   </div>
                   <Row className="timer  gx-2">
-                    <Col lg={4}>
+                    <Col lg={4} xs={4}>
                       <div className="timer__hours">
                         <h4 className="featured-product__top__timer__hours__num">
                           2
@@ -91,7 +90,7 @@ const FeaturedProducts = () => {
                         </p>
                       </div>
                     </Col>
-                    <Col lg={4}>
+                    <Col lg={4} xs={4}>
                       <div className="timer__minutes">
                         <h4 className="featured-product__top__timer__minutes__num">
                           16
@@ -101,7 +100,7 @@ const FeaturedProducts = () => {
                         </p>
                       </div>
                     </Col>
-                    <Col lg={4}>
+                    <Col lg={4} xs={4}>
                       <div className="timer__seconds">
                         <h4 className="featured-product__top__timer__seconds__num">
                           27
@@ -144,7 +143,7 @@ const FeaturedProducts = () => {
                     </div>
                   </div>
                   <Row className="timer  gx-2">
-                    <Col lg={4}>
+                    <Col lg={4} xs={4}>
                       <div className="timer__hours">
                         <h4 className="featured-product__top__timer__hours__num">
                           2
@@ -154,7 +153,7 @@ const FeaturedProducts = () => {
                         </p>
                       </div>
                     </Col>
-                    <Col lg={4}>
+                    <Col lg={4} xs={4}>
                       <div className="timer__minutes">
                         <h4 className="featured-product__top__timer__minutes__num">
                           16
@@ -164,7 +163,7 @@ const FeaturedProducts = () => {
                         </p>
                       </div>
                     </Col>
-                    <Col lg={4}>
+                    <Col >
                       <div className="timer__seconds">
                         <h4 className="featured-product__top__timer__seconds__num">
                           27

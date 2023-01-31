@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="top-footer">
+        <Row className="top-footer ">
           <Col lg={6}>
-            <Row className="justify-content-start">
+            <Row className="justify-content-start mb--10">
               <Col lg={6}>
                 <div>
                   <h4 className="footer__logo-text">Reaganwirless</h4>
@@ -19,7 +19,7 @@ const Footer = () => {
                   </p>
                   <div>
                     <Row>
-                      <Col lg={7}>
+                      <Col lg={7} xs={6}>
                       <SocialLinks  iconwidth={2} color="#A7A7A7" />
                       </Col>
                     </Row>
@@ -28,7 +28,7 @@ const Footer = () => {
               </Col>
             </Row>
           </Col>
-          <Col lg={2}>
+          <Col lg={2} xs={6}>
             <h5 className="footer__menu-title">Company</h5>
             <ul className="footer__menu-lnks">
               <li>About</li>
@@ -38,7 +38,7 @@ const Footer = () => {
               <li>Careers</li>
             </ul>
           </Col>
-          <Col lg={2}>
+          <Col lg={2} xs={6}>
             <h5 className="footer__menu-title">Information</h5>
             <ul className="footer__menu-lnks">
               <li>Help Center </li>
@@ -49,8 +49,8 @@ const Footer = () => {
           </Col>
           <Col lg={2}>
             <h5 className="footer__menu-title">Contact</h5>
-            <PhoneNo color="primary"  iconwidth={2}  icon-color="#3267E3" />
-            <EmailAddress color="primary" iconwidth={2} icon-color="#3267E3" />
+            <PhoneNo color="primary"  iconwidth={2} iconwidthsmall={1} icon-color="#3267E3" />
+            <EmailAddress color="primary" iconwidth={2} iconwidthsmall={1} icon-color="#3267E3" />
           </Col>
         </Row>
         <Row >

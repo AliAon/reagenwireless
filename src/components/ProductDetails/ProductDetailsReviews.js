@@ -12,15 +12,15 @@ const ProductDetailsReviews = () => {
           <div className="reviews-list mt--40">
             <div className="reviews-list-item mb--40">
               <Row>
-                <Col lg={1}>
+                <Col lg={1} xs={2}>
                   <div className="product-details__reviews-list__author-image">
                     <img  className="product-details__reviews-list__author-image__img"src="./images/products/placeholder (12).png" />
                   </div>
                 </Col>
-                <Col lg={11}>
+                <Col lg={11} xs={10}>
                   <h4 className="product-details__reviews-list__author-name">Vanille</h4>
                   <Row>
-                    <Col lg={3}>
+                    <Col lg={3} xs={6}>
                       <div className="ratting">
                         <span className="pr--5">5.0</span>
                         <span>
@@ -52,15 +52,15 @@ const ProductDetailsReviews = () => {
             </div>
             <div className="reviews-list-item  mb--40">
               <Row>
-                <Col lg={1}>
+                <Col lg={1}  xs={2}>
                   <div className="product-details__reviews-list__author-image">
                     <img  className="product-details__reviews-list__author-image__img"src="./images/products/placeholder (12).png" />
                   </div>
                 </Col>
-                <Col lg={11}>
+                <Col lg={11} xs={10}>
                   <h4 className="product-details__reviews-list__author-name">Vanille</h4>
                   <Row>
-                    <Col lg={3}>
+                  <Col lg={3} xs={6}>
                       <div className="ratting">
                         <span className="pr--5">5.0</span>
                         <span>
@@ -93,15 +93,15 @@ const ProductDetailsReviews = () => {
 
             <div className="reviews-list-item  mb--40">
               <Row>
-                <Col lg={1}>
+                <Col lg={1}  xs={2}>
                   <div className="product-details__reviews-list__author-image">
                     <img  className="product-details__reviews-list__author-image__img"src="./images/products/placeholder (12).png" />
                   </div>
                 </Col>
-                <Col lg={11}>
+                <Col lg={11} xs={10}>
                   <h4 className="product-details__reviews-list__author-name">Vanille</h4>
                   <Row>
-                    <Col lg={3}>
+                  <Col lg={3} xs={6}>
                       <div className="ratting">
                         <span className="pr--5">5.0</span>
                         <span>

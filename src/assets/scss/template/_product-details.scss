@@ -138,22 +138,21 @@
         width: 135px;
         padding-bottom: 40px;
     }
-    &__reviews-list__author-name{
+    &__reviews-list__author-name {
         font-weight: 500;
         color: var(--color-text-dark);
         font-size: var(--font-body-2);
     }
-    &__reviews-list__author-image__img{
+    &__reviews-list__author-image__img {
         width: 50px;
-
     }
-    &__reviews-list__review-date{
+    &__reviews-list__review-date {
         font-weight: 400;
         color: var(--color-light-grey);
         width: 350px;
         font-size: var(--font-body-3);
     }
-    
+
     &__add-your-review {
         font-weight: 700;
         color: var(--color-text-dark);
@@ -179,5 +178,30 @@
             padding-top: 10px;
         }
     }
-
+}
+@media only screen and (max-width: 479px) {
+    .image-gallery__img-arrow {
+        margin-left: -15px;
+        width: 90px;
+    }
+    .product-details {
+        &__wish-container {
+            float: left;
+        }
+        &__product-title {
+            font-size: var(--h5);
+            color: var(--color---h3-text-dark);
+            font-weight: 400;
+        }
+        &__regular-price {
+            font-weight: 700;
+            color: var(--color-text-dark);
+            font-size: var(--h5);
+        }
+        &__qty-label {
+            padding-top: 10%;
+            padding-bottom: 10px;
+        }
+    
+    }
 }
