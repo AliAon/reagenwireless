@@ -20,6 +20,7 @@ import {
   FaGamepad,
   FaPrint,
   FaStar,
+  FaHeart,
 } from "react-icons/fa";
 import { IoMdWatch } from "react-icons/io";
 import { BsHeadphones, BsSpeaker } from "react-icons/bs";
@@ -78,7 +79,10 @@ const AllCategories = () => {
                     <>
                       <Form.Range className="range-input" />
                       <Form.Label className="price-filter__label">
-                        Price: <strong className="all-categories__title">$100 - $250</strong>{" "}
+                        Price:{" "}
+                        <strong className="all-categories__title">
+                          $100 - $250
+                        </strong>{" "}
                       </Form.Label>
                     </>
                   </div>
@@ -90,22 +94,26 @@ const AllCategories = () => {
                     <Form className="filter-by-location__checkbox">
                       <Form.Group
                         className="mb-3 "
-                        controlId="formBasicCheckbox">
+                        controlId="formBasicCheckbox"
+                      >
                         <Form.Check type="checkbox" label="Jakarta" />
                       </Form.Group>
                       <Form.Group
                         className="mb-3"
-                        controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox"  label="Yogyakarta" />
+                        controlId="formBasicCheckbox"
+                      >
+                        <Form.Check type="checkbox" label="Yogyakarta" />
                       </Form.Group>
                       <Form.Group
                         className="mb-3"
-                        controlId="formBasicCheckbox">
+                        controlId="formBasicCheckbox"
+                      >
                         <Form.Check type="checkbox" label="Bandung" />
                       </Form.Group>
                       <Form.Group
                         className="mb-3"
-                        controlId="formBasicCheckbox">
+                        controlId="formBasicCheckbox"
+                      >
                         <Form.Check type="checkbox" label="Surabaya" />
                       </Form.Group>
                     </Form>
@@ -116,11 +124,67 @@ const AllCategories = () => {
                     <Form className="filter-by-location__checkbox">
                       <Form.Group
                         className="mb-3 "
-                        controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Jakarta" />
+                        controlId="formBasicCheckbox"
+                      >
+                        <Form.Check
+                          type="checkbox"
+                          label={[<FaStar color="#ffd687" />]}
+                        />
                       </Form.Group>
-                  
-                 
+                      <Form.Group
+                        className="mb-3 "
+                        controlId="formBasicCheckbox"
+                      >
+                        <Form.Check
+                          type="checkbox"
+                          label={[
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                          ]}
+                        />
+                      </Form.Group>
+                      <Form.Group
+                        className="mb-3 "
+                        controlId="formBasicCheckbox"
+                      >
+                        <Form.Check
+                          type="checkbox"
+                          label={[
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                          ]}
+                        />
+                      </Form.Group>
+                      <Form.Group
+                        className="mb-3 "
+                        controlId="formBasicCheckbox"
+                      >
+                        <Form.Check
+                          type="checkbox"
+                          label={[
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                          ]}
+                        />
+                      </Form.Group>
+                      <Form.Group
+                        className="mb-3 "
+                        controlId="formBasicCheckbox"
+                      >
+                        <Form.Check
+                          type="checkbox"
+                          label={[
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                            <FaStar color="#ffd687" />,
+                          ]}
+                        />
+                      </Form.Group>
                     </Form>
                   </div>
                   <hr className="line" />
@@ -129,12 +193,13 @@ const AllCategories = () => {
                   <h4 className="all-categories__title">Filter by Payment</h4>
                   <h4 className="all-categories__title">Filter by Shipment</h4>
                   <div className="filter-by-location__checkbox__btn-container text-center">
-
-                  <button className="filter-by-location__checkbox__btn ">Filter</button>
-                  <h4 className="all-categories__title reset_filter text-center">Reset Filter</h4>
-
+                    <button className="filter-by-location__checkbox__btn ">
+                      Filter
+                    </button>
+                    <h4 className="all-categories__title reset_filter text-center">
+                      Reset Filter
+                    </h4>
                   </div>
-
                 </div>
               </Card>
             </Col>
@@ -241,9 +306,201 @@ const AllCategories = () => {
               <h5 className="mt--40 all-categories__product-list">
                 Product List
               </h5>
+              <Row className="pt--20 pb--20">
+                <Col lg={4}>
+                  <div className="product-two-card">
+                    <div className="product-two-card__image">
+                      <img src="./images/products/placeholder (5).png" />
+                    </div>
+                    <div className="product-two-card__detail">
+                      <div className="featured-product__detail pb--15">
+                        <h5 className="product-two-card__product__title">
+                          Smart Mop Robot
+                        </h5>
+                        <div className="product-two-card__product__prices">
+                          <p className="product-two-card__product-price">
+                            $299
+                          </p>
+                          <div className="ratting">
+                            <span>
+                              <FaStar color="#FFD687" />
+                            </span>
+                            <span className="pr-5 product-details__review-count"> 5.0</span>
+                            <span className="product-details__bar pr--10 pl--10">|</span>
+                            <span className="product-details__sold">Sold 99</span>
+                          </div>
+                          <button className="product-two-card__product__add-to-cart">
+                            Add To Cart
+                            
+                          </button>
+                          <span className="pl--10"> <FaHeart color="#D0D0D2"/></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <div className="product-two-card">
+                    <div className="product-two-card__image">
+                      <img src="./images/products/placeholder (6).png" />
+                    </div>
+                    <div className="product-two-card__detail">
+                      <div className="featured-product__detail pb--15">
+                        <h5 className="product-two-card__product__title">
+                          Headphones (Blue)
+                        </h5>
+                        <div className="product-two-card__product__prices">
+                          <p className="product-two-card__product-price">
+                            $299
+                          </p>
+                          <div className="ratting">
+                            <span>
+                              <FaStar color="#FFD687" />
+                            </span>
+                            <span className="pr-5 product-details__review-count"> 5.0</span>
+                            <span className="product-details__bar pr--10 pl--10">|</span>
+                            <span className="product-details__sold">Sold 99</span>
+                          </div>
+                          <button className="product-two-card__product__add-to-cart">
+                            Add To Cart
+                          </button>
+                          <span className="pl--10"> <FaHeart color="#D0D0D2"/></span>
 
-              <ProductGridThree />
-              <ProductGridThree />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <div className="product-two-card">
+                    <div className="product-two-card__image">
+                      <img src="./images/products/placeholder (7).png" />
+                    </div>
+                    <div className="product-two-card__detail">
+                      <div className="featured-product__detail pb--15">
+                        <h5 className="product-two-card__product__title">
+                          JBL Clip Plus Blue
+                        </h5>
+                        <div className="product-two-card__product__prices">
+                          <p className="product-two-card__product-price">
+                            $299
+                          </p>
+                          <div className="ratting">
+                            <span>
+                              <FaStar color="#FFD687" />
+                            </span>
+                            <span className="pr-5 product-details__review-count"> 5.0</span>
+                            <span className="product-details__bar pr--10 pl--10">|</span>
+                            <span className="product-details__sold">Sold 99</span>
+                          </div>
+                          <button className="product-two-card__product__add-to-cart">
+                            Add To Cart
+                          </button>
+                          <span className="pl--10"> <FaHeart color="#D0D0D2"/></span>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+              <Row className="pt--20 pb--20">
+                <Col lg={4}>
+                  <div className="product-two-card">
+                    <div className="product-two-card__image">
+                      <img src="./images/products/placeholder (5).png" />
+                    </div>
+                    <div className="product-two-card__detail">
+                      <div className="featured-product__detail pb--15">
+                        <h5 className="product-two-card__product__title">
+                          Smart Mop Robot
+                        </h5>
+                        <div className="product-two-card__product__prices">
+                          <p className="product-two-card__product-price">
+                            $299
+                          </p>
+                          <div className="ratting">
+                            <span>
+                              <FaStar color="#FFD687" />
+                            </span>
+                            <span className="pr-5 product-details__review-count"> 5.0</span>
+                            <span className="product-details__bar pr--10 pl--10">|</span>
+                            <span className="product-details__sold">Sold 99</span>
+                          </div>
+                          <button className="product-two-card__product__add-to-cart">
+                            Add To Cart
+                          </button>
+                          <span className="pl--10"> <FaHeart color="#D0D0D2"/></span>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <div className="product-two-card">
+                    <div className="product-two-card__image">
+                      <img src="./images/products/placeholder (6).png" />
+                    </div>
+                    <div className="product-two-card__detail">
+                      <div className="featured-product__detail pb--15">
+                        <h5 className="product-two-card__product__title">
+                          Headphones (Blue)
+                        </h5>
+                        <div className="product-two-card__product__prices">
+                          <p className="product-two-card__product-price">
+                            $299
+                          </p>
+                          <div className="ratting">
+                            <span>
+                              <FaStar color="#FFD687" />
+                            </span>
+                            <span className="pr-5 product-details__review-count"> 5.0</span>
+                            <span className="product-details__bar pr--10 pl--10">|</span>
+                            <span className="product-details__sold">Sold 99</span>
+                          </div>
+                          <button className="product-two-card__product__add-to-cart">
+                            Add To Cart
+                          </button>
+                          <span className="pl--10"> <FaHeart color="#D0D0D2"/></span>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <div className="product-two-card">
+                    <div className="product-two-card__image">
+                      <img src="./images/products/placeholder (7).png" />
+                    </div>
+                    <div className="product-two-card__detail">
+                      <div className="featured-product__detail pb--15">
+                        <h5 className="product-two-card__product__title">
+                          JBL Clip Plus Blue
+                        </h5>
+                        <div className="product-two-card__product__prices">
+                          <p className="product-two-card__product-price">
+                            $299
+                          </p>
+                          <div className="ratting">
+                            <span>
+                              <FaStar color="#FFD687" />
+                            </span>
+                            <span className="pr-5 product-details__review-count"> 5.0</span>
+                            <span className="product-details__bar pr--10 pl--10">|</span>
+                            <span className="product-details__sold">Sold 99</span>
+                          </div>
+                          <button className="product-two-card__product__add-to-cart">
+                            Add To Cart
+                          </button>
+                          <span className="pl--10"> <FaHeart color="#D0D0D2"/></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
             </Col>
           </Row>
 
