@@ -39,7 +39,7 @@ const AllCategories = () => {
             width={4}
           />
           <Row>
-            <Col lg={3}>
+            <Col lg={3} xs={{ order: 'last' }}>
               {/* categories list */}
               <Card>
                 <div className="all-categories__categories-list-container">
@@ -203,9 +203,9 @@ const AllCategories = () => {
                 </div>
               </Card>
             </Col>
-            <Col lg={9}>
-              <Row className="mb--20">
-                <Col lg={3}>
+            <Col lg={9} xs={{ order: 'first' }}>
+              <Row className="mb--20 gy-3">
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<FaLaptop color="#383838" size={25} />}
@@ -213,7 +213,7 @@ const AllCategories = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<FaMobile color="#383838" size={25} />}
@@ -221,7 +221,7 @@ const AllCategories = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<FaCamera color="#383838" size={25} />}
@@ -229,7 +229,7 @@ const AllCategories = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<FaTv color="#383838" size={25} />}
@@ -238,8 +238,8 @@ const AllCategories = () => {
                   </div>
                 </Col>
               </Row>
-              <Row className="mb--20">
-                <Col lg={3}>
+              <Row className="mb--20 gy-3" >
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<FaAirFreshener color="#383838" size={25} />}
@@ -247,7 +247,7 @@ const AllCategories = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<IoMdWatch color="#383838" size={25} />}
@@ -255,7 +255,7 @@ const AllCategories = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<FaMicrophone color="#383838" size={25} />}
@@ -263,7 +263,7 @@ const AllCategories = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<FaGamepad color="#383838" size={25} />}
@@ -272,8 +272,8 @@ const AllCategories = () => {
                   </div>
                 </Col>
               </Row>
-              <Row>
-                <Col lg={3}>
+              <Row className="gy-3">
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<FaPrint color="#383838" size={25} />}
@@ -281,7 +281,7 @@ const AllCategories = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<BsHeadphones color="#383838" size={25} />}
@@ -289,7 +289,7 @@ const AllCategories = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3}>
+                <Col lg={3} xs={6}>
                   <div className="icon-box">
                     <IconTopBox
                       icon={<BsSpeaker color="#383838" size={25} />}
@@ -306,7 +306,7 @@ const AllCategories = () => {
               <h5 className="mt--40 all-categories__product-list">
                 Product List
               </h5>
-              <Row className="pt--20 pb--20">
+              <Row className="pt--20 pb--20 gy-4">
                 <Col lg={4}>
                   <div className="product-two-card">
                     <div className="product-two-card__image">
@@ -404,7 +404,7 @@ const AllCategories = () => {
                   </div>
                 </Col>
               </Row>
-              <Row className="pt--20 pb--20">
+              <Row className="pt--20 pb--20 gy-4">
                 <Col lg={4}>
                   <div className="product-two-card">
                     <div className="product-two-card__image">
